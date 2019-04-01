@@ -1,0 +1,10 @@
+.nav{font-family: 'Source Sans Pro', sans-serif;font-size: 15px}
+p.chec{font-family: 'Alegreya Sans', sans-serif;font-size: 20px}
+p{font-family: 'Raleway', sans-serif;}
+p.but{font-family: 'Open Sans Condensed', sans-serif;font-weight: bold;font-size: 20px}
+body {background-color:#c5e1a5;}
+input:focus {background-color: #eeeeee;}
+.gr:hover{background-color: #81c784;}
+.rd:hover{background-color: #e57373;}
+.bc:focus{background-color: #eeeeee;}
+.ft{font-family: 'Raleway', sans-serif;}

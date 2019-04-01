@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Akash Patel</title>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Akash Patel</title>
+    <link href="../bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap-3.3.6-dist/css/style.css" rel="stylesheet">
+    <script src="../bootstrap-3.3.6-dist/jquery.min.js"></script>
+    <script src="..\bootstrap-3.3.6-dist\js\bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:300italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+  <style>
+  .nav{font-family: 'Source Sans Pro', sans-serif;font-size: 15px}
+  body{color: blue;}
+  input:focus {background-color: #e3f2fd;}
+  .gr:hover{background-color: #81c784;}
+  .rd:hover{background-color: #e57373;}
+  .bc:focus{background-color: #e3f2fd;}
+  li a{color: blue;font-size: 30px}
+  ul{background-color: white}
+ 
+  </style>
+</head>
+<body>
+
+<body>
+  <nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle gr" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Events</a></li>
+      <li><a href="#">Calender</a></li>
+      <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br><br><br>
+    <div class="container">
+    <form action="contactdb.php" class="form-horizontal" method="post">
+
+        <div class="form-group">
+        <label class="control-label" style="font-family: 'Raleway', sans-serif;" for="ema">Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+        </div>  
+        <div class="form-group">
+        <label class="control-label" style="font-family: 'Raleway', sans-serif;" for="commt">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+         <div class="form-group">
+        <label class="control-label" style="font-family: 'Raleway', sans-serif;" for="mob">Mobile no.</label>
+        <input type="text" class="form-control" id="mob" name="mob">
+        </div>
+            <div class="form-group">
+            <label class="control-label" style="font-family: 'Raleway', sans-serif;" for="comm">Questions:</label>
+            <textarea class="form-control bc" rows="5" id="ques" name="ques" required></textarea>
+            </div>
+                    <input type="submit" class="btn btn-default gr" style="font-family: 'Open Sans Condensed', sans-serif;font-size: 20px" id="submit" value="Contact Us!" />
+                    <input type="reset" class="btn btn-default rd" style="font-family: 'Open Sans Condensed', sans-serif;font-size: 20px" id="reset" value="Reset!" />
+    </form>
+</body>
+</html>

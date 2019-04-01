@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Loading</title>
+  <style>
+    body {
+      margin: 0; }
+      body .wrapper {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body .wrapper span {
+          font-size: 10rem; }
+          body .preloader {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #fff;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+            body .preloader .counter {
+              position: absolute;
+              font-family: Poppins;
+              font-size: 7rem;
+              font-weight: 900;
+              color: #fff;
+              mix-blend-mode: difference; }
+              body .preloader .loader {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                background: #000; }
+
+              </style>
+              <script type="text/javascript">
+                document.addEventListener('DOMContentLoaded', () => {
+                  let element = document.querySelector('.counter');
+                  let loader = document.querySelector('.loader');
+                  let preloader = document.querySelector('.preloader');
+                  let count = 0;
+                  let counter = setInterval(() => {
+                    if (count <= 100) {
+                      element.textContent = count + '%';
+                      loader.style.width = count + '%';
+                      count++;
+                    } else {
+                      clearInterval(counter);
+                      fadeOut(preloader);
+                    }
+                  }, 20);
+
+
+
+
+                  //  fadeout
+                  function fadeOut(element) {
+                    element.style.opacity = 1;
+
+                    (function fade() {
+                      if ((element.style.opacity -= .1) < 0) {
+                        element.style.display = 'none';
+                      } else {
+                        requestAnimationFrame(fade);
+                      }
+                    })();
+                  }
+                });
+              </script>
+            </head>
+            <body>
+              <div class="preloader">
+                <div class="loader"></div>
+                <div class="counter"></div>
+              </div>
+
+              <div class="wrapper">
+                <span>🙋‍♂️</span>
+              </div>
+            </body>
+            </html>

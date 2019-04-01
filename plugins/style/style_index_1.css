@@ -1,0 +1,129 @@
+.nav{font-size: 15px; background: #2E382F;}
+body{font-size:20px;}
+body {background-color:#31342E; font-family: 'Noto Sans JP', sans-serif;}
+nav.navbar{background: #2E382F}
+
+li{color:white;}
+div.collapsible-header,div.collapsible-body{background-color:#31342E; color: white; border-color: white;}
+.br{background: #31342E;}
+.lbr{background: #7D7863}
+.dbr{background:#31342E;}
+.card_title{color: white;}
+section{background: #A2956D}
+p.about{color: white}
+a{color: white}
+A:hover{color: grey}
+
+
+
+
+  #logo{
+    font-size: 100px;
+    color: white;
+  }
+  #logo:hover{
+    color: grey;
+  }
+  .navbar {
+    overflow: hidden;
+    background: #2E382F;
+    padding: 250px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+    text-align: center;
+    height: 100%;
+  }
+  #navbar-right {
+    display: none;
+    float: right;
+  }
+  /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+  @media screen and (max-width: 580px) {
+    a#resume_2{
+      display: none !important;
+    }
+    #navbar {
+      padding: 20px 10px !important;/* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+  }
+  a.menu{
+    border-radius: 10px;
+    background-color: #EBE8E9;
+    color : #2E382F;
+  }
+  a.menu:hover{
+    background-color: #7D7863;
+  }
+  p#det{
+    font-size: 30px;
+  }
+  .hid{
+    display: none;
+  }
+
+  .progress{
+    height: 2rem;
+    border: 0.09px solid #757575;
+  }
+
+  .sign-in-facebook{
+      background: url("../icons/facebook.png") #7D7863;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-left: 50px;
+      padding-bottom: 60px;
+    }
+    .sign-in-facebook:hover {
+      background-color: #31342E;
+    }
+    .sign-in-li{
+      background: url("../icons/linkedin.png") #7D7863;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-left: 50px;
+      padding-bottom: 60px;
+    }
+    .sign-in-li:hover {
+      background-color: #31342E;
+    }
+    .sign-in-insta{
+      background: url("../icons/instagram.png") #7D7863;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-left: 50px;
+      padding-bottom: 60px;
+    }
+    .sign-in-insta:hover {
+      background-color: #31342E;
+    }
+    .sign-in-sna{
+      background: url("../icons/snapchat.png") #7D7863;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-left: 50px;
+      padding-bottom: 60px;
+    }
+    .sign-in-sna:hover {
+      background-color: #31342E;
+    }
+    .sign-in-tw{
+      background: url("../icons/twitter.png") #7D7863;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-left: 50px;
+      padding-bottom: 60px;
+    }
+    .sign-in-tw:hover {
+      background-color: #31342E;
+    }

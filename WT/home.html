@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Akash Patel</title>
+    <link href="../bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap-3.3.6-dist/css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../bootstrap-3.3.6-dist/jquery.min.js"></script>
+    <script src="../bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./extra/materialize.css">
+      <script type="text/javascript" src="./bootstrap-3.3.6-dist/jquery-2.1.1.min.js"></script>
+      <script src="../materialize/js/materialize.min.js"></script>
+    <script src="../bootstrap-3.3.6-dist/parallax.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'> 
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
+
+
+<script>
+      $(function(){
+        var x = navigator.userAgent;
+        if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+          $('#ios-notice').removeClass('hidden');
+          $('.parallax-container').height( $(window).height() * 0.5 | 0 );
+           window.location.replace("./mob.html");
+        } else {
+          $(window).resize(function(){
+              var parallaxHeight = Math.max($(window).height() * 0.9, 200) | 0;
+            $('.parallax-container').height(parallaxHeight);
+          }).trigger('resize');
+        }
+      });
+    </script>
+    <style>
+ .nav{font-family: 'Courgette', cursive;font-size: 15px}
+     </style>
+  
+  </head>
+  <body>
+  <nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" style="font-family: 'Courgette', cursive;" href="#">Student Portal</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Events</a></li>
+      <li><a href="#">Calender</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    
+
+    <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src=".\image1.jpg" ></div>
+
+    <section class="light-green lighten-3">
+      <div class="row">
+      <center><h1 style="font-family: 'PT Sans', sans-serif;">Events</h1></center>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">  
+        <h2 style="text-align: center;font-family: 'Coming Soon', cursive;">Upcoming events</h2>
+        <ul style="font-family: 'Josefin Sans', sans-serif;font-size: 30px">
+          <li><a href="./uevent1.html">event 1</a></li>
+          <li><a href="./uevent2.html">event 2</a></li>
+          <li><a href="./uevent3.html">event 3</a></li>
+          <li><a href="./uevent4.html">event 4</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6">  
+        <h2 style="text-align: center;font-family: 'Coming Soon', cursive;">Past events</h2>
+        <ul style="font-family: 'Josefin Sans', sans-serif;font-size: 30px">
+          <li style="font-size: 30px"><a href="./pevent1.html">event 1</a></li>
+          <li style="font-size: 30px"><a href="./pevent2.html">event 2</a></li>
+          <li style="font-size: 30px"><a href="./pevent3.html">event 3</a></li>
+          <li style="font-size: 30px"><a href="./pevent4.html">event 4</a></li>
+        </ul>
+      </div>
+      </section>
+       
+    
+  </body>
+</html>

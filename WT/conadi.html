@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact us</title>
+    <link href="../bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap-3.3.6-dist/css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../bootstrap-3.3.6-dist/jquery.min.js"></script>
+    <script src="../bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <script type="text/javascript" src="../bootstrap-3.3.6-dist/jquery-2.1.1.min.js"></script>
+      <script src="../materialize/js/materialize.min.js"></script>
+    <script src="../bootstrap-3.3.6-dist/parallax.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'> 
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
+   <script>
+         $(document).ready(function() {
+         $('select').material_select();
+      });
+      </script>
+      <style>
+      body{background-image: url("./lib.JPG"); background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+  }
+      </style>
+</head>
+<body>
+
+      <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Library</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="homeadi.php">Issue & return</a></li>
+      <li class="active"><a href="conadi.html">Register</a></li>
+      <li><a href="adminl.html">Admin Login</a></li>  
+    </ul>
+  </div>
+</nav>
+
+
+
+<br><br><br><br>
+    <div class="container">
+    <center>
+    <form action="adidb.php" method="post">
+   <table>
+   <tr>
+    <td style="color:white">Name:</td>
+    <td><input type="text" name="name" required></td>
+    </tr>
+    <tr>
+      <td><br></td>
+      <td><br></td>
+    </tr>
+    
+   <tr>
+    <td style="color:white">Branch:</td>
+    <td><input type="text" name="bran" required></td>
+</tr>
+    <tr>
+      <td><br></td>
+      <td><br></td>
+    </tr>    
+   
+   <tr>
+
+   <td style="color:white"> Email:</td>
+    <td><input type="email" name="email" required></td>
+    </tr>
+        <tr>
+      <td><br></td>
+      <td><br></td>
+    </tr>
+    <tr>
+    <td style="color:white">Mob No:</td>
+    <td><input type="text" name="mob" required></td>
+    </tr>
+        <tr>
+      <td><br></td>
+      <td><br></td>
+    </tr>
+<tr>
+      <td><input type="submit" class="btn" id="submit" value="Register" /></td>
+                    <td align="center"><input type="reset" class="btn" id="reset" value="Reset" /></td>
+                    </tr>
+      
+      </div>
+    </form>
+    </center>
+  </div>
+</body>
+</html>

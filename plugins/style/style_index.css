@@ -1,0 +1,178 @@
+div#preloader{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  pointer-events: none;
+}
+.loader{
+  position: absolute;
+  height: 100px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #2E382F;
+
+}
+.count{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  color: #fff;
+  transform: translate(-50%,-50%);
+  font-size: 12vw;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+body {font-size:20px;background:#2E382F; font-family: 'Noto Sans JP', sans-serif; color: white;}
+a{color:inherit;}
+
+
+
+div.collapsible-header,div.collapsible-body{background-color:#31342E;}
+.br{background: #31342E;}
+.lbr{background: #7D7863}
+.dbr{background:#31342E;}
+section,.page-footer{background: #A2956D}
+A:hover{color: grey}
+
+
+
+.card-reveal{
+  background:#31342E !important;
+}
+
+#logo{
+  font-size: 100px;
+}
+#navbar {
+  overflow: hidden;
+  background: #2E382F;
+  padding: 250px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 9999;
+  text-align: center;
+  height: 100%;
+}
+#navbar-right {
+  display: none;
+  float: right;
+}
+#navbar:hover{
+  opacity: 1 !important;
+}
+/* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+@media screen and (max-width: 580px) {
+  a#resume_2{
+    display: none !important;
+  }
+  #navbar {
+    padding: 20px 10px !important;
+    opacity: 1 !important;
+    transition: 0.4s;/* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+a.menu{
+  border-radius: 10px;
+  background-color: #EBE8E9;
+  color : #2E382F;
+}
+a.menu:hover{
+  background-color: #7D7863;
+}
+ul a.btn{
+  background-color: #7D7863 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 50px;
+  padding-bottom: 60px;
+}
+ul a.btn:hover{
+  background-color: #7D7863 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p#det{
+  font-size: 30px;
+}
+
+div#contact p{
+  font-size:25px;
+  font-weight: bold;
+}
+
+.hid{
+  display: none;
+}
+
+.progress{
+  height: 2rem;
+  border: 0.09px solid #757575;
+}
+.pop-out-button{
+  background: #2E382F;
+  position:fixed;
+  right:-135px;
+  bottom:20px;
+  height:50px;
+  z-index: 99;
+}
+.pop-out-button:hover{
+  background : #7F8688;
+  color:white;
+  z-index: 99;
+}
+
+.sign-in-gith{
+  background: url("../icons/github.png") #7D7863;
+}
+.sign-in-gith:hover {
+  background: url("../icons/github_hover.png") #7D7863;
+
+}
+.sign-in-li{
+  background: url("../icons/linkedin.png") #7D7863;
+}
+.sign-in-li:hover {
+  background: url("../icons/linkedin_hover.png") #7D7863;
+}
+.sign-in-email{
+  background: url("../icons/email.png") #7D7863;
+}
+.sign-in-email:hover {
+  background: url("../icons/email_hover.png") #7D7863;
+}
+.sign-in-phone{
+  background: url("../icons/phone.png") #7D7863;
+}
+.sign-in-phone:hover {
+  background: url("../icons/phone_hover.png") #7D7863;
+}
+.sign-in-tw{
+  background: url("../icons/twitter.png") #7D7863;
+}
+.sign-in-tw:hover {
+  background: url("../icons/twitter_hover.png") #7D7863;
+}
+
+
+footer {
+  padding: 30px 0 30px;
+  text-align: center;
+}

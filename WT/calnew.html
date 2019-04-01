@@ -1,0 +1,115 @@
+<DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calender</title>
+    <link href="../bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap-3.3.6-dist/css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../bootstrap-3.3.6-dist/jquery.min.js"></script>
+    <script src="../bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../extra/materialize.css">
+      <script type="text/javascript" src="../bootstrap-3.3.6-dist/jquery-2.1.1.min.js"></script>
+      <script src="../materialize/js/materialize.min.js"></script>
+    <script src="../bootstrap-3.3.6-dist/parallax.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'> 
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
+
+
+<script>
+      $(function(){
+        var x = navigator.userAgent;
+        if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+          $('#ios-notice').removeClass('hidden');
+          $('.parallax-container').height( $(window).height() * 0.5 | 0 );
+    
+        } else {
+          $(window).resize(function(){
+              var parallaxHeight = Math.max($(window).height() * 0.9, 200) | 0;
+            $('.parallax-container').height(parallaxHeight);
+          }).trigger('resize');
+        }
+      });
+    </script>
+    <style>
+ .nav{font-family: 'Courgette', cursive;font-size: 15px}
+ body{
+      background-color: #ffccbc;
+      }
+      table{font-family: 'PT Sans', sans-serif;}
+     </style>
+  <meta name="theme-color" content="#7cb342">
+  </head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="./nhm.html">Home</a></li>
+      <li><a href="./home1.html">Events</a></li>
+      <li><a href="./download.html">Downloads & Uploads</a></li>
+      <li class="active"><a href="./calnew.html">Calender</a></li>
+      <li><a href="./contact1.php">Contact us</a></li>
+      <li><a href="./teacher.html">Teacher login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+  <center>
+  <h1 style="font-family: 'Coming Soon', cursive">Welcome</h1>
+  <img src="event3.jpg" width = "100%">
+  </center>
+  </div>
+
+  <div class="row">
+  <p><br><br></p>
+  </div>
+  <div class="row">
+  <center>
+	<table>
+	<center>
+	<thead>
+		<tr>
+			<td>Date</td>
+			<td colspan="3">Events</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>11/03/16</td>
+			<td colspan="3"><a href="http://14.139.122.72/Research/">List of Workshops Research Week 2016 at GTU, Chandkhda Campus, Ahmedabad   </a>Registration Link(from 3 pm onwards)</td>
+		</tr>
+		<tr>
+			<td>10/03/16</td>
+			<td colspan="3"><a href="http://files.gtu.ac.in/circulars/16Mar/10032016_02.pdf">Regarding Poster Presentation of M.E. Students in MSR 2016.</a></td>
+		</tr>
+		<tr>
+			<td>15/02/16</td>
+			<td colspan="3"><a href="http://gtu.ac.in/Winter15.asp">Theory Exam Timetable for BE students participated in All India University Sports events/Republic Day Celebration</a></td>
+		</tr>
+    <tr>
+      <td>13/10/15</td>
+      <td colspan="3"><a href="http://gtu.ac.in/Winter15.asp">Design Engineering 2A-(2150001) Winter Exam 2015 (for all zone Students)</a></td>
+    </tr>
+		</tbody>
+	</center>	
+	</table>
+	</center>
+</div>
+</div>
+</body>
+</html>

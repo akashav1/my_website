@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teacher Login</title>
+    <link href="../bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap-3.3.6-dist/css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../bootstrap-3.3.6-dist/jquery.min.js"></script>
+    <script src="../bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../extra/materialize.css">
+      <script type="text/javascript" src="../bootstrap-3.3.6-dist/jquery-2.1.1.min.js"></script>
+      <script src="../materialize/js/materialize.min.js"></script>
+    <script src="../bootstrap-3.3.6-dist/parallax.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'> 
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
+    <meta name="theme-color" content="#7cb342">
+     <style>
+      .nav{font-family: 'Courgette', cursive;font-size: 15px}
+      </style>
+    </head>
+    <body>
+
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="./nhm.html">Home</a></li>
+      <li><a href="./home1.html">Events</a></li>
+      <li><a href="./download.php">Downloads & Uploads</a></li>
+      <li><a href="./calnew.html">Calender</a></li>
+      <li><a href="./contact1.php">Contact us</a></li>
+      <li class="active"><a href="./teacher.html">Teacher login</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+      <div class="container">
+      <form action="techlogin.php" method="post">
+      <div class="row">
+        <div class="input-field col s6">
+          <input type="text" name="tname" required>
+          <label for="tname">Name:</label>
+        </div>
+        </div>
+        <div class="row">
+        <div class="input-field col s6">
+          <input type="password" name="pass" required>
+          <label for="pass">Password:</label>
+        </div>
+        </div>
+        <input type="submit" class="btn" value="Enter" name="submit">
+        </form>
+      </div>
+    </body>
