@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/akasykmo/public_html/my_website
+    - export DEPLOYPATH=/home//public_html/my_website
     - /bin/cp -R WT $DEPLOYPATH
     - /bin/cp -R demo $DEPLOYPATH
     - /bin/cp -R files $DEPLOYPATH
